@@ -3,8 +3,7 @@ import torch
 import torchvision
 import torch.nn as nn
 import torch.nn.functional as F
-# import CGDL_utils_new_allpara as ut
-import CGDL_utils_new as ut
+import distributions_utils_new as ut
 # from non_local_lib.non_local_embedded_gaussian import NONLocalBlock2D
 import numpy as np
 import torchvision.models as models
